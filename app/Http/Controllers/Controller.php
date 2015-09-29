@@ -10,6 +10,6 @@ abstract class Controller extends BaseController {
 
     function __construct()
     {
-        setlocale(LC_TIME,'id_ID.utf8');
+        setlocale(LC_TIME,'id_ID.utf8', 'IND');
     }
 }
